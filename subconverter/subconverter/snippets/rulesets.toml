@@ -3,13 +3,7 @@ group = "🛑 广告拦截"
 ruleset = "rules/ACL4SSR/Clash/BanAD.list"
 [[rulesets]]
 group = "🛑 广告拦截"
-ruleset = "rules/ACL4SSR/Clash/BanEasyList.list"
-[[rulesets]]
-group = "🛑 广告拦截"
 ruleset = "rules/ACL4SSR/Clash/BanEasyListChina.list"
-[[rulesets]]
-group = "🛑 广告拦截"
-ruleset = "rules/ACL4SSR/Clash/BanEasyPrivacy.list"
 [[rulesets]]
 group = "🍃 应用净化"
 ruleset = "rules/ACL4SSR/Clash/BanProgramAD.list"
