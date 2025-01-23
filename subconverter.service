@@ -1,0 +1,16 @@
+# /etc/systemd/system/subconverter.service
+[Unit]
+Description="subconverter"
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/subconverter
+StandardOutput=journal
+StandardError=journal
+ExecStart=/home/subconverter/subconverter
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+service文件放到 /etc/systemd/system/
+
+systemctl start subconverter.service
+systemctl stop subconverter.service
+systemctl status subconverter.service
