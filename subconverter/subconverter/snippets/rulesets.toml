@@ -1,24 +1,54 @@
 [[rulesets]]
+group = "🛑 广告拦截"
+ruleset = "rules/ACL4SSR/Clash/BanAD.list"
+[[rulesets]]
+group = "🛑 广告拦截"
+ruleset = "rules/ACL4SSR/Clash/BanEasyList.list"
+[[rulesets]]
+group = "🛑 广告拦截"
+ruleset = "rules/ACL4SSR/Clash/BanEasyListChina.list"
+[[rulesets]]
+group = "🛑 广告拦截"
+ruleset = "rules/ACL4SSR/Clash/BanEasyPrivacy.list"
+[[rulesets]]
+group = "🍃 应用净化"
+ruleset = "rules/ACL4SSR/Clash/BanProgramAD.list"
+[[rulesets]]
 group = "🎯 全球直连"
 ruleset = "rules/ACL4SSR/Clash/LocalAreaNetwork.list"
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset = "rules/ACL4SSR/Clash/UnBan.list"
+# [[rulesets]]
+# group = "🎯 全球直连"
+# ruleset = "rules/ACL4SSR/Clash/ChinaIp.list"
 [[rulesets]]
-group = "🛑 广告拦截"
-ruleset = "rules/ACL4SSR/Clash/BanAD.list"
+group = "🎯 全球直连"
+ruleset = "rules/ACL4SSR/Clash/ChinaDomain.list"
 [[rulesets]]
-group = "🍃 应用净化"
-ruleset = "rules/ACL4SSR/Clash/BanProgramAD.list"
+group = "🎯 全球直连"
+ruleset = "rules/ACL4SSR/Clash/ChinaCompanyIp.list"
 [[rulesets]]
-group = "📢 谷歌FCM"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/GoogleFCM.list"
+group = "🎯 全球直连"
+ruleset = "rules/ACL4SSR/Clash/Download.list"
+# [[rulesets]]
+# group = "🎯 全球直连
+# ruleset = "[]GEOIP,LAN"
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,CN"
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset = "rules/ACL4SSR/Clash/Ruleset/GoogleCN.list"
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset = "rules/ACL4SSR/Clash/Ruleset/SteamCN.list"
+[[rulesets]]
+group = "🌏 国内媒体"
+ruleset = "rules/ACL4SSR/Clash/ChinaMedia.list"
+[[rulesets]]
+group = "📢 谷歌FCM"
+ruleset = "rules/ACL4SSR/Clash/Ruleset/GoogleFCM.list"
 [[rulesets]]
 group = "Ⓜ️ 微软Bing"
 ruleset = "rules/ACL4SSR/Clash/Ruleset/Bing.list"
@@ -71,12 +101,6 @@ ruleset = "rules/ACL4SSR/Clash/Ruleset/BilibiliHMT.list"
 group = "📺 哔哩哔哩"
 ruleset = "rules/ACL4SSR/Clash/Ruleset/Bilibili.list"
 [[rulesets]]
-group = "🌏 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/ChinaMedia.list"
-[[rulesets]]
-group = "🌏 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/DouYin.list"
-[[rulesets]]
 group = "🎵 TikTok"
 ruleset = "rules/ACL4SSR/Clash/Ruleset/TikTok.list"
 [[rulesets]]
@@ -85,24 +109,6 @@ ruleset = "rules/ACL4SSR/Clash/ProxyMedia.list"
 [[rulesets]]
 group = "🔰 节点选择"
 ruleset = "rules/ACL4SSR/Clash/ProxyGFWlist.list"
-# [[rulesets]]
-# group = "🎯 全球直连"
-# ruleset = "rules/ACL4SSR/Clash/ChinaIp.list"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/ChinaDomain.list"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/ChinaCompanyIp.list"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Download.list"
-# [[rulesets]]
-# group = "🎯 全球直连
-# ruleset = "[]GEOIP,LAN"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOIP,CN"
 [[rulesets]]
 group = "🐟 漏网之鱼"
 ruleset = "[]FINAL"
