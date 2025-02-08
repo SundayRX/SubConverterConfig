@@ -1,108 +1,117 @@
+# -拦截部分-
 [[rulesets]]
 group = "🛑 广告拦截"
-ruleset = "rules/ACL4SSR/Clash/BanAD.list"
+ruleset = "rules/Clash/ACL4SSR/BanAD.list"
 [[rulesets]]
 group = "🛑 广告拦截"
-ruleset = "rules/ACL4SSR/Clash/BanEasyListChina.list"
+ruleset = "rules/Clash/ACL4SSR/BanProgramAD.list"
 [[rulesets]]
-group = "🍃 应用净化"
-ruleset = "rules/ACL4SSR/Clash/BanProgramAD.list"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/LocalAreaNetwork.list"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/UnBan.list"
-# [[rulesets]]
-# group = "🎯 全球直连"
-# ruleset = "rules/ACL4SSR/Clash/ChinaIp.list"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/ChinaDomain.list"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/ChinaCompanyIp.list"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Download.list"
-# [[rulesets]]
-# group = "🎯 全球直连
-# ruleset = "[]GEOIP,LAN"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOIP,CN"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/GoogleCN.list"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/SteamCN.list"
-[[rulesets]]
-group = "🌏 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/ChinaMedia.list"
-[[rulesets]]
-group = "📢 谷歌FCM"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/GoogleFCM.list"
+group = "🛑 广告拦截"
+ruleset = "rules/Clash/ACL4SSR/BanEasyListChina.list"
+# -外国公司-
 [[rulesets]]
 group = "Ⓜ️ 微软Bing"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Bing.list"
+ruleset = "rules/Clash/Bing/Bing.list"
 [[rulesets]]
 group = "Ⓜ️ 微软云盘"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/OneDrive.list"
+ruleset = "rules/Clash/OneDrive/OneDrive.list"
 [[rulesets]]
 group = "Ⓜ️ 微软服务"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Microsoft.list"
+ruleset = "rules/Clash/Microsoft/Microsoft.list"
+[[rulesets]]
+group = "Ⓜ️ 微软服务"
+ruleset = "rules/Clash/MicrosoftEdge/MicrosoftEdge.list"
 [[rulesets]]
 group = "🍎 苹果服务"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Apple.list"
+ruleset = "rules/Clash/Apple/Apple.list"
 [[rulesets]]
 group = "📲 电报消息"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Telegram.list"
-[[rulesets]]
-group = "💬 OpenAi"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/OpenAi.list"
-[[rulesets]]
-group = "🎶 网易音乐"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/NetEaseMusic.list"
+ruleset = "rules/Clash/Telegram/Telegram.list"
+# -游戏平台-
 [[rulesets]]
 group = "🎮 游戏平台"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Epic.list"
+ruleset = "rules/Clash/Steam/Steam.list"
 [[rulesets]]
 group = "🎮 游戏平台"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Origin.list"
+ruleset = "rules/Clash/Epic/Epic.list"
 [[rulesets]]
 group = "🎮 游戏平台"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Sony.list"
+ruleset = "rules/Clash/Origin/Origin.list"
 [[rulesets]]
 group = "🎮 游戏平台"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Steam.list"
+ruleset = "rules/Clash/EA/EA.list"
 [[rulesets]]
 group = "🎮 游戏平台"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Nintendo.list"
-[[rulesets]]
-group = "📹 油管视频"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/YouTube.list"
+ruleset = "rules/Clash/Blizzard/Blizzard.list"
+# -视频音乐-
 [[rulesets]]
 group = "🎥 奈飞视频"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Netflix.list"
-[[rulesets]]
-group = "📺 巴哈姆特"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Bahamut.list"
-[[rulesets]]
-group = "📺 哔哩哔哩"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/BilibiliHMT.list"
-[[rulesets]]
-group = "📺 哔哩哔哩"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Bilibili.list"
+ruleset = "rules/Clash/Netflix/Netflix.list"
 [[rulesets]]
 group = "🎵 TikTok"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/TikTok.list"
+ruleset = "rules/Clash/TikTok/TikTok.list"
 [[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/ProxyMedia.list"
+group = "📹 油管视频"
+ruleset = "rules/Clash/YouTube/YouTube.list"
+[[rulesets]]
+group = "📹 油管视频"
+ruleset = "rules/Clash/YouTubeMusic/YouTubeMusic.list"
+[[rulesets]]
+group = "🎶 网易音乐"
+ruleset = "rules/Clash/NetEaseMusic/NetEaseMusic.list"
+[[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "rules/Clash/BiliBili/BiliBili.list"
+[[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "rules/Clash/BiliBiliIntl/BiliBiliIntl.list"
+[[rulesets]]
+group = "📺 巴哈姆特"
+ruleset = "rules/Clash/Bahamut/Bahamut.list"
+[[rulesets]]
+group = "📢 谷歌FCM"
+ruleset = "rules/Clash/GoogleFCM/GoogleFCM.list"
+# -人工智能-
+[[rulesets]]
+group = "💬 OpenAi"
+ruleset = "rules/Clash/OpenAI/OpenAI.list"
+# -剩余强制直连的网站-
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/Clash/Lan/Lan.list"
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list"
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/Clash/ChinaDNS/ChinaDNS.list"
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/Clash/ChinaMedia/ChinaMedia.list"
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/Clash/Download/Download.list"
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/Clash/SteamCN/SteamCN.list"
+# -剩余强制代理的网站-
 [[rulesets]]
 group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/ProxyGFWlist.list"
+ruleset = "rules/Clash/Proxy/Proxy.list"
+[[rulesets]]
+group = "🔰 节点选择"
+ruleset = "rules/Clash/GitHub/GitHub.list"
+[[rulesets]]
+group = "🔰 节点选择"
+ruleset = "rules/Clash/MySelf/SubConverter.list"
+# -GEOPIP域名DNS解析 国内IP判定-
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,LAN,no-resolve"
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,CN,no-resolve"
+# -未命中兜底-
 [[rulesets]]
 group = "🐟 漏网之鱼"
 ruleset = "[]FINAL"
