@@ -106,7 +106,7 @@ rule = ["[]🎯 全球直连","[]🔰 节点选择","[]🇭🇰 香港节点","[
 [[custom_groups]]
 name = "💬 OpenAi"
 type = "select"
-rule = ["[]🇺🇸 美国节点","[]🔰 节点选择"]
+rule = ["[]🇺🇸 美国节点","[]🔰 节点选择","[]🎯 全球直连"]
 
 
 [[custom_groups]]
@@ -139,7 +139,8 @@ type = "url-test"
 #rule = ["(?i)^(?!.*(🇦🇬|🇪🇨|🇵🇪|🇸🇴|🇮🇸|🇸🇲|🇬🇧|🇬🇮|🇫🇴|🇦🇱|🇵🇸|)).*([Xx]?[2-9]+\\.[0-9]+[Xx]?)"]
 rule = ["(?i)^(?!.*([Xx]?[0-1]+\\.[0-9]+[Xx]?)).*(🇭🇰|HK|Hongkong|香港|🇹🇼|TW|Taiwan|台湾|台|新北|彰化|🇲🇴|MO|Macao|澳门|🇺🇸|US|United States|美国|美)"]
 url = "http://www.gstatic.com/generate_204"
-interval = 600
+interval = 300
+timeout = 2
 tolerance = 150
 
 
@@ -148,7 +149,8 @@ name = "♻️ 自动选择"
 type = "url-test"
 rule = ["(🇭🇰|HK|Hongkong|香港|🇹🇼|TW|Taiwan|台湾|台|新北|彰化|🇲🇴|MO|Macao|澳门|🇺🇸|US|United States|美国|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞圣克拉拉|西雅图|芝加哥)"]
 url = "http://www.gstatic.com/generate_204"
-interval = 600
+interval = 300
+timeout = 2
 tolerance =150
 
 [[custom_groups]]
@@ -156,7 +158,8 @@ name = "🇭🇰 香港节点(自动)"
 type = "url-test"
 rule = ["(🇭🇰|HK|Hongkong|香港|港)"]
 url = "http://www.gstatic.com/generate_204"
-interval = 600
+interval = 300
+timeout = 2
 tolerance =150
 
 [[custom_groups]]
@@ -164,7 +167,8 @@ name = "🇹🇼 台湾节点(自动)"
 type = "url-test"
 rule = ["(🇹🇼|TW|Taiwan|台湾|台|新北|彰化)"]
 url = "http://www.gstatic.com/generate_204"
-interval = 600
+interval = 300
+timeout = 2
 tolerance =150
 
 [[custom_groups]]
@@ -172,7 +176,8 @@ name = "🇺🇸 美国节点(自动)"
 type = "url-test"
 rule = ["^(?!.*尼亚).*(🇺🇸|US|United States|美国|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞圣克拉拉|西雅图|芝加哥)"]
 url = "http://www.gstatic.com/generate_204"
-interval = 600
+interval = 300
+timeout = 2
 tolerance =150
 
 [[custom_groups]]
