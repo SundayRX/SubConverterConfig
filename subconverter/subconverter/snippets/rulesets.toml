@@ -75,10 +75,13 @@ ruleset = "rules/Clash/GoogleFCM/GoogleFCM.list"
 [[rulesets]]
 group = "💬 OpenAi"
 ruleset = "rules/Clash/OpenAI/OpenAI.list"
-# -剩余强制直连的网站-
+# -强制直连的网站-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset = "rules/Clash/Lan/Lan.list"
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,LAN,no-resolve"
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset = "rules/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list"
@@ -94,6 +97,9 @@ ruleset = "rules/Clash/Download/Download.list"
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset = "rules/Clash/SteamCN/SteamCN.list"
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,CN,no-resolve"
 # -剩余强制代理的网站-
 [[rulesets]]
 group = "🔰 节点选择"
@@ -104,14 +110,7 @@ ruleset = "rules/Clash/GitHub/GitHub.list"
 [[rulesets]]
 group = "🔰 节点选择"
 ruleset = "rules/Clash/MySelf/SubConverter.list"
-# -GEOPIP域名DNS解析 国内IP判定-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOIP,LAN,no-resolve"
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOIP,CN,no-resolve"
-# -未命中兜底-
+# -最后未命中兜底-
 [[rulesets]]
 group = "🐟 漏网之鱼"
 ruleset = "[]FINAL"
