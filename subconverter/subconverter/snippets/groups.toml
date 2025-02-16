@@ -1,7 +1,7 @@
 [[custom_groups]]
 name = "🔰 节点选择"
 type = "select"
-rule = ["[]🚀 自动选择(高倍率节点)","[]♻️ 自动选择","[]🎯 全球直连","[]🇭🇰 香港节点","[]🇹🇼 台湾节点","[]🇺🇸 美国节点","[]🇯🇵 日本节点","[]🇰🇷 韩国节点","[]🇸🇬 新加坡节点","[]🇹🇷 土区节点","[]🇦🇷 阿区节点"]
+rule = ["[]🚀 自动选择(高倍率节点)","[]♻️ 自动选择","[]🇭🇰 香港节点","[]🇹🇼 台湾节点","[]🇺🇸 美国节点","[]🇯🇵 日本节点","[]🇰🇷 韩国节点","[]🇸🇬 新加坡节点","[]🇹🇷 土区节点","[]🇦🇷 阿区节点","[]DIRECT"]
 
 
 [[custom_groups]]
@@ -71,54 +71,54 @@ rule = ["[]🇺🇸 美国节点(自动)","[]🇺🇸 美国节点","[]🇭🇰 
 [[custom_groups]]
 name = "📺 哔哩哔哩"
 type = "select"
-rule = ["[]🎯 全球直连","[]🇹🇼 台湾节点","[]🇭🇰 香港节点","[]🇯🇵 日本节点"]
+rule = ["[]DIRECT","[]🇹🇼 台湾节点","[]🇭🇰 香港节点","[]🇯🇵 日本节点"]
 
 [[custom_groups]]
 name = "Ⓜ️ 微软云盘"
 type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]🇭🇰 香港节点","[]🇹🇼 台湾节点","[]🇺🇸 美国节点"]
+rule = ["[]DIRECT","[]🔰 节点选择","[]🇭🇰 香港节点","[]🇹🇼 台湾节点","[]🇺🇸 美国节点"]
 
 
 [[custom_groups]]
 name = "Ⓜ️ 微软Bing"
 type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择"]
+rule = ["[]DIRECT","[]🔰 节点选择"]
 
 
 [[custom_groups]]
 name = "Ⓜ️ 微软服务"
 type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择"]
+rule = ["[]DIRECT","[]🔰 节点选择"]
 
 
 [[custom_groups]]
 name = "🍎 苹果服务"
 type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择"]
+rule = ["[]DIRECT","[]🔰 节点选择"]
 
 
 [[custom_groups]]
 name = "🎮 游戏平台"
 type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]🇭🇰 香港节点","[]🇦🇷 阿区节点","[]🇹🇷 土区节点"]
+rule = ["[]DIRECT","[]🔰 节点选择","[]🇭🇰 香港节点","[]🇦🇷 阿区节点","[]🇹🇷 土区节点"]
 
 
 [[custom_groups]]
 name = "💬 OpenAi"
 type = "select"
-rule = ["[]🇺🇸 美国节点","[]🔰 节点选择","[]🎯 全球直连"]
+rule = ["[]🇺🇸 美国节点","[]🔰 节点选择","[]DIRECT"]
 
 
 [[custom_groups]]
 name = "🎶 网易音乐"
 type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","(网易|音乐|解锁|Music|NetEase)"]
+rule = ["[]DIRECT","[]🔰 节点选择","(网易|音乐|解锁|Music|NetEase)"]
 
 
 [[custom_groups]]
 name = "📢 谷歌FCM"
 type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择"]
+rule = ["[]DIRECT","[]🔰 节点选择"]
 
 
 [[custom_groups]]
@@ -130,7 +130,7 @@ rule = ["[]🇹🇼 台湾节点","[]🔰 节点选择"]
 [[custom_groups]]
 name = "🐟 漏网之鱼"
 type = "select"
-rule = ["[]🔰 节点选择","[]🎯 全球直连"]
+rule = ["[]🔰 节点选择","[]DIRECT"]
 
 
 [[custom_groups]]
