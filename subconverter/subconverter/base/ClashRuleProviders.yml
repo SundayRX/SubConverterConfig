@@ -1,0 +1,25 @@
+
+#规则
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies: ~
+proxy-groups: ~
+rule-providers:
+#  GEOSITE-ADS:
+#      type: http
+#      proxy: 🔰 节点选择
+#      behavior: domain
+#      format: yaml
+#      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Advertising/Advertising_Domain.yaml"
+#      interval: 86400
+  QUIC:
+    type: inline
+    behavior: classical
+    format: yaml
+    payload:
+      - 'AND,((DST-PORT,443),(NETWORK,UDP))'
+rules: ~
